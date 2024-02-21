@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" href="style.CSS">
+    <link rel="stylesheet" href="./styles/style.CSS">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap"
@@ -14,7 +14,12 @@
 </head>
 
 <body>
-
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong
@@ -24,14 +29,18 @@
                 especialidade em Angular, React, HTML e CSS. Ajudo
                 pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.instagram.com/matt___ft/">Instagram</a>
-                <a class="apresentacao__links__link" href="https://github.com/mttwwws">GitHub</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/matheus-ferreira-387787228/"> <img src="./assets/linkedin.png"> LinkedIn</a>
+                <a class="apresentacao__links__link" href="https://github.com/mttwwws"> <img src="./assets/github.png"> GitHub</a>
+                <a class="apresentacao__links__link" href="https://www.instagram.com/matt___ft/"> <img src="./assets/instagram.png"> Instagram</a>
             </div>
         </section>
-        <img src="images/Imagem.png" alt="Minha de Matheus Ferreira">
+        <img src="./assets/Imagem.png" alt="Minha de Matheus Ferreira">
 
     </main>
-
+    <footer class="rodape">
+        <p>Desenvolvido por Matheus</p>
+    </footer>
 </body>
 
 </html>
