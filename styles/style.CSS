@@ -1,8 +1,9 @@
 :root {
     --cor-primaria: black;
     --cor-secundaria: #ffff;
-    --cor-terciaria: #22D4FD;
+    --cor-terciaria: #73AFF6;
     --cor-hover: #272727;
+    --cor-fundo: #0e263b;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -16,7 +17,7 @@
 body {
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-fundo);
     color: var(--cor-secundaria);
 }
 
@@ -82,7 +83,7 @@ body {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
-    color: (var(--cor-terciaria));
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__links__navegacao {
@@ -100,6 +101,16 @@ body {
     color: #f6f6f6;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
+}
+
+/* .git {
+    padding-right: 15px;
+    gap: 15px;
+} */
+
+.apresentacao__links__navegacao:hover {
+    color: var(--cor-terciaria);
+    background-color: #272727;
 }
 
 .apresentacao__links__link:hover {
